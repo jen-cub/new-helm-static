@@ -2,10 +2,10 @@ SHELL := /bin/bash
 
 .EXPORT_ALL_VARIABLES:
 
-CHART_DIRECTORY ?= ../planet4-helm-charts
+CHART_DIRECTORY ?= ../jen-helm-charts
 
-CHART_BUCKET ?= gs://planet4-helm-charts
-CHART_URL ?= https://planet4-helm-charts.storage.googleapis.com
+CHART_BUCKET ?= gs://jen-helm-charts
+CHART_URL ?= https://jen-helm-charts.storage.googleapis.com
 
 CHART_NAME := $(shell basename "$(PWD)")
 
