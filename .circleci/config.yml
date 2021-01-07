@@ -10,7 +10,7 @@ defaults: &defaults
     - image: jencub2/circleci-base:latest
       auth:
         <<: *docker_auth
-  working_directory: /home/circleci/static
+  working_directory: /home/circleci/static2
 
 version: 2
 
