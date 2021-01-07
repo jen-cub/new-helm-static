@@ -2,4 +2,4 @@
 apiVersion: v1
 description: Static Site
 name: static2
-version: 0.3.7
+version: 0.3.8
