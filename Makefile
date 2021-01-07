@@ -92,6 +92,7 @@ verify: lint
 
 .PHONY: index
 index: lint $(CHART_DIRECTORY)
+	@helm3 repo add jencub $(CHART_URL)
 	@helm3 repo index $(CHART_DIRECTORY) --url $(CHART_URL)
 
 .PHONY: push
